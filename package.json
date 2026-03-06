@@ -1,0 +1,16 @@
+{
+  "name": "cda-deployment-part-3",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "import": "node src/utils/import-database.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "mysql2": "^3.6.1"
+  }
+}
