@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 5050;
 
 console.log("PORT", process.env.PORT);
 
+console.log("DB", process.env.DB_DATABASE);
+
 app.use(express.json());
 app.use(cors());
 
