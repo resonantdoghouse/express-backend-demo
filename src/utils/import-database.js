@@ -2,7 +2,7 @@ import connection from "./mysql.js";
 import fs from "fs";
 
 try {
-  const sql = fs.readFileSync("../sql/database.sql").toString();
+  const sql = fs.readFileSync("sql/database.sql").toString();
   await connection.query(sql);
   console.log("Database imported");
 } catch (error) {
